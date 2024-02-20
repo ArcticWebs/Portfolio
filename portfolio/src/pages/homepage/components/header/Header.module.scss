@@ -1,0 +1,28 @@
+@import "styles/breakpoints.scss";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 50px;
+
+  img {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 35px;
+
+    max-width: 420px;
+
+    span {
+      color: var(--aqua-color);
+      font-weight: 700;
+    }
+  }
+}
