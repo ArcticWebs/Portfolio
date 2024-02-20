@@ -1,5 +1,5 @@
 import styles from "./Header.module.scss";
-import avatar from "assets/avatar-3.png";
+import avatar from "assets/Avatar.svg";
 import clsx from "clsx";
 
 const Header = () => {
